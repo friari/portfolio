@@ -3,30 +3,31 @@
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
-  width: 95vw;
+  width: 100vw;
   align-items: center;
 }
-
+#top #logo {
+  margin-left: 1%;
+}
 #top #logo a {
   justify-self: flex-start;
 }
-
-#menu {
+#top #menu {
   display: none;
 }
-
-.dropdown div {
+#top .dropdown {
+  margin-right: 1%;
+}
+#top .dropdown div {
   width: 35px;
   height: 5px;
   background-color: black;
   margin: 6px 0;
 }
-
-#menu-label {
+#top #menu-label {
   float: right;
 }
-
-ul {
+#top ul {
   max-height: 0;
   padding: 10px, 0;
   text-align: right;
@@ -34,17 +35,14 @@ ul {
   transition: transform 0.3s;
   transform-origin: top;
 }
-
-ul li a {
+#top ul li a {
   text-decoration: none;
   color: #2A2D34;
 }
-
-ul li a:visited {
+#top ul li a:visited {
   color: #2A2D34;
 }
-
-input:not(:checked) ~ #dropdown-content {
+#top input:not(:checked) ~ #dropdown-content {
   transform: scaleY(0);
 }
 
