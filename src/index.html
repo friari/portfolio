@@ -9,22 +9,28 @@
 </head>
 <body>
     <header>
-        <div id="logo">
-            <a>A</a>
-        </div>
-        <div class="dropdown">
-            <div></div>
-            <div></div>
-            <div></div>
-            <nav class="dropdown_content">
-                <a href="#about">ABOUT</a>
-                <a href="#work">WORK</a>
-                <a href="#contact">CONTACT</a>
+        <section id="top">
+            <div id="logo">
+                <a>A</a>
+            </div>
+            <nav class="dropdown">
+                <input id="menu" type="checkbox">
+                <label id="menu-label" for="menu">
+                    <div></div>
+                    <div></div>
+                </label>
+                <ul id="dropdown-content">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
             </nav>
-        </div>
-        <h1>ARI</h1>
-        <h2>FRIEDGUT</h2>
-        <h3>WEB DEVELOPER</h3>
+        </section>
+        <section id="home-page">
+            <h1>ARI</h1>
+            <h2>FRIEDGUT</h2>
+            <h3>WEB DEVELOPER</h3>
+        </section>
     </header>
     <main>
         <section id="about">
@@ -57,8 +63,20 @@
             </div>
         </section>
         <section id="contact">
+            <div class="title">
+                <h2>CONTACT ME</h2>
+            </div>
             <div class="info">
-                <
+                <table>
+                    <tr>
+                        <td>Find me on Linkedin</td>
+                        <td>www.standin.com</td>
+                    </tr>
+                    <tr>
+                        <td>Find me on Github</td>
+                        <td></td>
+                    </tr>
+                </table>
             </div>
         </section>
     </main>

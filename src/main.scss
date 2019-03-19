@@ -1,0 +1,70 @@
+@import "variables";
+
+@mixin info-background {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 95vw;
+    align-items: center;
+}
+
+#top #logo a {
+    justify-self: flex-start;
+}
+
+#menu {
+    display: none;
+}
+
+.dropdown div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#menu-label {
+    float: right;
+}
+
+ul {
+max-height: 0;
+padding: 10px, 0;
+text-align: right;
+list-style-type: none;
+transition: transform 0.3s;
+transform-origin: top;
+}
+
+ul li a {
+    text-decoration: none;
+    color: $color4;
+}
+
+ul li a:visited {
+    color: $color4;
+}
+
+input:not(:checked) ~ #dropdown-content {
+    transform: scaleY(0);
+  }
+
+#home-page {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
