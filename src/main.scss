@@ -82,9 +82,22 @@
     justify-content: center;
 
     h1, h2, h3 {
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 40px;
         display: inline-block;
         margin: 0;
+    }
+
+    h1 {
         margin-bottom: -9px;
+        letter-spacing: 78.2px;
+        padding-left: 79px;
+    }
+
+    h2 {
+        margin-bottom: -9px;
+        letter-spacing: 11.9px;
+        padding-left: 10px;
     }
 }
 
