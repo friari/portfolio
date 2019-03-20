@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Saira+Extra+Condensed:400,700,800");
 #top {
   display: flex;
   flex-direction: row;
@@ -21,7 +22,7 @@
 #top .dropdown div {
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: #A9BCD0;
   margin: 6px 0;
 }
 #top #menu-label {
@@ -29,7 +30,6 @@
 }
 #top ul {
   max-height: 0;
-  padding: 10px, 0;
   text-align: right;
   list-style-type: none;
   transition: transform 0.3s;
@@ -38,9 +38,10 @@
 #top ul li a {
   text-decoration: none;
   color: #2A2D34;
+  padding: 10px 0;
 }
 #top ul li a:visited {
-  color: #2A2D34;
+  color: #A9BCD0;
 }
 #top input:not(:checked) ~ #dropdown-content {
   transform: scaleY(0);
@@ -52,6 +53,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+#home-page h1, #home-page h2, #home-page h3 {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: -9px;
+}
+
+.title {
+  display: flex;
+  height: 20%;
+  flex-direction: row;
+  align-self: flex-end;
 }
 
 /*# sourceMappingURL=main.css.map */
