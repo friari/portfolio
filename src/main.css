@@ -8,12 +8,12 @@ html {
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   align-items: center;
 }
 #top #logo {
   margin-left: 1%;
-  color: #A9BCD0;
+  color: #a8b1bb;
   font-family: "Saira Extra Condensed", sans-serif;
   font-size: 40px;
   font-style: bold;
@@ -52,13 +52,21 @@ html {
   transition: transform 0.3s;
   transform-origin: top;
 }
+#top ul li {
+  padding: 10px 0;
+}
 #top ul li a {
   text-decoration: none;
   color: #A19A97;
-  padding: 10px 0;
+  margin: 0;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 30px;
 }
 #top ul li a:visited {
-  color: #A9BCD0;
+  color: #A19A97;
+}
+#top ul li a:hover {
+  color: #a8b1bb;
 }
 #top input:not(:checked) ~ #dropdown-content {
   transform: scaleY(0);
@@ -75,10 +83,10 @@ html {
 }
 #home-page h1, #home-page h2, #home-page h3 {
   font-family: "Saira Extra Condensed", sans-serif;
-  color: #A19A97;
+  color: #a8b1bb;
   display: inline-block;
   margin: 0;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 #home-page h1 {
   font-size: 60px;
@@ -101,18 +109,55 @@ html {
   padding-right: 1px;
 }
 
-.title {
+#about-title {
+  background-image: url("images/abstract-abstract-expressionism-abstract-painting-1919287.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #2A2D34;
+}
+
+#work .title {
+  background-image: url("images/aerial-view-background-environment-787723.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #4C243B;
+  background-color: rgba(42, 45, 52, 0.712);
+}
+
+.page .title {
   display: flex;
   height: calc(0.35 * 100vh);
   flex-direction: row;
   align-items: flex-end;
 }
-.title h2 {
+.page .title h2 {
   margin: 0;
 }
+.page div h2 {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 40px;
+  padding: 0 20px;
+}
+.page .info {
+  height: calc(0.65 * 100vh);
+  font-family: "Montserrat", sans-serif;
+  padding: 0 20px;
+  background-color: #2A2D34;
+  color: #a8b1bb;
+  overflow: scroll;
+}
+.page .info p:first-child {
+  margin-top: 0;
+  padding-top: 8px;
+}
+.page #work-info {
+  text-align: right;
+}
 
-#about-title {
-  background-image: url("images/abstract-abstract-expressionism-abstract-painting-1509534.jpg");
+#work .title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 /*# sourceMappingURL=main.css.map */

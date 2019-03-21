@@ -2,16 +2,16 @@
 
 @import "variables";
 
-@mixin info-background {
-    display: flex;
-    flex-direction: column;
-}
+// @mixin info-background {
+//     display: flex;
+//     flex-direction: column;
+// }
 
-@mixin titles {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+// @mixin titles {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+// }
 
 html {
     scroll-behavior: smooth;
@@ -22,7 +22,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     align-items: center;
 
     #logo {
@@ -74,15 +74,25 @@ html {
     list-style-type: none;
     transition: transform 0.3s;
     transform-origin: top;
+
+        li {
+            padding: 10px 0;
+        }
     }
     
     ul li a {
         text-decoration: none;
         color: $color1;
-        padding: 10px 0;
+        margin: 0;
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 30px;
     }
     
     ul li a:visited {
+        color: $color1;
+    }
+
+    ul li a:hover {
         color: $color3;
     }
     
@@ -104,10 +114,10 @@ html {
 
     h1, h2, h3 {
         font-family: 'Saira Extra Condensed', sans-serif;
-        color: $color1;
+        color: $color3;
         display: inline-block;
         margin: 0;
-        opacity: 0.9;
+        opacity: 0.8;
     }
 
     h1 {
@@ -134,19 +144,63 @@ html {
     }
 }
 
-.title {
-
-    h2 {
-        margin: 0;
-    }
-
-    display: flex;
-    height: calc(0.35 * 100vh);
-    flex-direction: row;
-    align-items: flex-end;
-
+#about-title {
+    background-image: url("images/abstract-abstract-expressionism-abstract-painting-1919287.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: $color4;
 }
 
-#about-title {
-    background-image: url("images/abstract-abstract-expressionism-abstract-painting-1509534.jpg");
+#work .title {
+    background-image: url("images/aerial-view-background-environment-787723.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: $color2;
+    background-color: $color4-opaque;
+}
+
+.page {
+
+    .title {
+
+        h2 {
+            margin: 0;
+        }
+    
+        display: flex;
+        height: calc(0.35 * 100vh);
+        flex-direction: row;
+        align-items: flex-end;
+    
+    }
+    
+    div h2 {
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 40px;
+        padding: 0 20px;
+    }
+
+    .info {
+
+        p:first-child {
+            margin-top: 0;
+            padding-top: 8px;
+        }
+        height: calc(0.65 * 100vh);
+        font-family: 'Montserrat', sans-serif;
+        padding: 0 20px;
+        background-color: $color4;
+        color: $color3;
+        overflow: scroll;
+    }
+
+    #work-info {
+        text-align: right;
+    }
+}
+
+#work .title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
