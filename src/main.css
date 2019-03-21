@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Saira+Extra+Condensed:400,700,800");
 html {
   scroll-behavior: smooth;
+  min-width: 327px;
 }
 
 #top {
@@ -16,7 +17,6 @@ html {
   color: #a8b1bb;
   font-family: "Saira Extra Condensed", sans-serif;
   font-size: 40px;
-  font-style: bold;
   opacity: 0.7;
 }
 #top #logo a {
@@ -116,12 +116,12 @@ html {
   color: #2A2D34;
 }
 
-#work .title {
-  background-image: url("images/aerial-view-background-environment-787723.jpg");
+#contact .title {
+  background: url("images/abstract-attractive-backdrop-988872.jpg");
   background-size: cover;
   background-attachment: fixed;
-  color: #4C243B;
-  background-color: rgba(42, 45, 52, 0.712);
+  background-position: center;
+  color: #2A2D34;
 }
 
 .page .title {
@@ -158,6 +158,13 @@ html {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+  background: url("images/background-black-colors-952670.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #435058;
+}
+#work .info {
+  background-color: #435058;
 }
 
 /*# sourceMappingURL=main.css.map */
