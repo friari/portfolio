@@ -224,6 +224,10 @@ html {
 
     #work-info {
         text-align: right;
+        
+        h3 {
+            display: block;
+        }
     }
 }
 
@@ -309,7 +313,12 @@ html {
 
             p {
                 padding-left: 5px;
-                // padding-right: 50px;
+                padding-right: 50px;
+            }
+
+            #cooking-title {
+                align-self: flex-end;
+                padding-right: 5px;
             }
         }
 
@@ -318,11 +327,6 @@ html {
             flex-direction: column;
             justify-content: center;
             margin: auto 0;
-
-            p {
-                padding-left: 5px;
-                // padding-right: 50px;
-            }
 
             h3 {
                 padding-left: 5px;
@@ -351,6 +355,10 @@ html {
             p {
                 padding-right: 5px;
                 padding-left: 50px;
+            }
+
+            h3 {
+                display: block
             }
         }
     }
