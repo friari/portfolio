@@ -189,6 +189,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 .page #work-info .images img {
   display: block;
