@@ -187,23 +187,13 @@ html {
 }
 .page #work-info .images {
   display: flex;
-  justify-content: flex-end;
-  height: 25vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .page #work-info .images img {
   display: block;
-  width: 30%;
-  height: auto;
-  margin: 2vh;
-}
-.page #work-info .images img:hover {
-  width: 45vw;
-  height: 40vh;
-}
-.page #work-info .images img:hover:first-of-type {
-  justify-self: flex-end;
-  position: relative;
-  left: 200px;
+  height: 200px;
+  margin: 10px 0;
 }
 
 #work .title {
@@ -309,6 +299,27 @@ html {
   }
   #work .info h3 {
     display: block;
+  }
+  #work .info .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 25vh;
+  }
+  #work .info .images img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 2vh;
+  }
+  #work .info .images img:hover {
+    width: 45vw;
+    height: 40vh;
+  }
+  #work .info .images img:hover:first-of-type {
+    justify-self: flex-end;
+    position: relative;
+    left: 200px;
   }
 }
 @media (max-height: 660px) {

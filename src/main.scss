@@ -220,37 +220,15 @@ html {
 
         .images {
             display: flex;
-            justify-content: flex-end;
-            height: 25vh;
+            flex-direction: column;
+            justify-content: space-between;
 
             img {
                 display: block;
-                width: 30%;
-                height: auto;
-                margin: 2vh;
-            }
-
-            img:hover {
-                width: 45vw;
-                height: 40vh;
-            }
-
-            img:hover:first-of-type {
-                justify-self: flex-end;
-                position: relative;
-                left: 200px;
+                height: 200px;
+                margin: 10px 0;
             }
         }
-
-        // img:first-of-type {
-        //     padding-left: 20px;
-        // }
-
-        // img {
-        //     width: 30%;
-        //     height: 25%;
-        //     transition: 0.2
-        // }
     }
 }
 
@@ -382,6 +360,31 @@ html {
 
             h3 {
                 display: block
+            }
+
+            .images {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                height: 25vh;
+    
+                img {
+                    display: block;
+                    width: 30%;
+                    height: auto;
+                    margin: 2vh;
+                }
+    
+                img:hover {
+                    width: 45vw;
+                    height: 40vh;
+                }
+    
+                img:hover:first-of-type {
+                    justify-self: flex-end;
+                    position: relative;
+                    left: 200px;
+                }
             }
         }
     }
