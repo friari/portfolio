@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Saira+Extra+Condensed:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Saira+Extra+Condensed');
 
 @import "variables";
 
@@ -228,6 +228,40 @@ html {
         h3 {
             display: block;
         }
+
+        .images {
+            display: flex;
+            justify-content: flex-end;
+            height: 25vh;
+
+            img {
+                display: block;
+                width: 30%;
+                height: auto;
+                margin: 2vh;
+            }
+
+            img:hover {
+                width: 45vw;
+                height: 40vh;
+            }
+
+            img:hover:first-of-type {
+                justify-self: flex-end;
+                position: relative;
+                left: 200px;
+            }
+        }
+
+        // img:first-of-type {
+        //     padding-left: 20px;
+        // }
+
+        // img {
+        //     width: 30%;
+        //     height: 25%;
+        //     transition: 0.2
+        // }
     }
 }
 
