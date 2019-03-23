@@ -108,7 +108,7 @@ html {
   font-size: 60px;
   margin-bottom: -14px;
   letter-spacing: 41px;
-  padding-left: 47px;
+  padding-left: 44px;
   padding-right: 2px;
   width: 50%;
   margin-left: auto;
@@ -235,6 +235,10 @@ html {
 }
 
 @media (min-width: 850px) {
+  #home-page h1 {
+    padding-left: 46px;
+  }
+
   .page {
     display: flex;
     flex-direction: row;
