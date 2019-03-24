@@ -51,6 +51,8 @@ The purpose of my portfolio website is to have a hub on the internet where I can
 ### Design Process
 
 * I had an idea for how I wanted my site layout to work before anything else
+* Created a pinterest mood board for inspiration  
+![pinterest](https://www.pinterest.com.au/afriedgut/dev-portfolio/)
 * After this, I spent a while coming up with the perfect color pallet. I wanted cool, sleek colors to show sophistication.  
 ![color scheme](./docs/portfolio_colour_scheme.png)  
 * I wire framed by website. First I did a low fi wire frame on an A4 sheet of paper (this wasunfortunately lost due to water damage). Then I did a more hi-fi wire frame on butcher's paper.
@@ -76,15 +78,15 @@ I designed my website to be stark and minimal and therefore increase usability v
 1/3 day 1 - wire framing  
 1/3 day 1 - color scheme  
 1/3 day 1 - background images  
-1/2 day 2 - hamburger dropdown menu pure css
-1/2 day 2 & 1/3 day 3 - main heading text alignment
-1/3 day 3 - body layout
-1/3 day 3 - breakpoints
-2/3 day 4 - fixing various issues
-1/3 day 4 - css sprinkles
-1/2 day 5 - final touches
-1/2 day 5 - README.md
-day 6 - presentation & submit
+1/2 day 2 - hamburger dropdown menu pure css  
+1/2 day 2 & 1/3 day 3 - main heading text alignment  
+1/3 day 3 - body layout  
+1/3 day 3 - breakpoints  
+2/3 day 4 - fixing various issues  
+1/3 day 4 - css sprinkles  
+1/2 day 5 - final touches  
+1/2 day 5 - README.md  
+day 6 - presentation & submit  
 
 ### Screenshots of Trello Board
 
